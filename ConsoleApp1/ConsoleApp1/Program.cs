@@ -56,8 +56,13 @@ namespace ConsoleApp1
                 Console.WriteLine("Enter a your new pasword");
                 var newpassword = Console.ReadLine();
 
+<<<<<<< HEAD
                 Array.Resize(ref User, User.Length + 1);
                 User[User.Length - 1] = new User(username, password);
+=======
+                Array.Resize(ref arrUsers, arrUsers.Length + 1);
+                arrUsers[arrUsers.Length - 1] = new Users(username, password, id);
+>>>>>>> parent of bc11283... Revert "Od Cas 12-2-2019"
 
 
             }
